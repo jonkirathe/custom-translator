@@ -2,6 +2,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@ngx-everything-uppercase": [
+        "../ngx-multilingual/dist/ngx-multilingual"
+      ],
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
